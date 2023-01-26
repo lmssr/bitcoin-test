@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  background-image: url('/public/bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  height: 282px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #444444;
+}
+
+.button {
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  color: purple;
+  border: none;
+}
+
+.button:hover {
+  background-color: purple;
+  color: white;
+}
+
+.button-img {
+  background-image: url('/public/plus.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 50px;
+}
